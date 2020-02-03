@@ -13,6 +13,7 @@
 .App-logo {
   margin: 20px;
   height: 194px;
+  object-fit: contain;
   pointer-events: none;
 }
 
@@ -45,4 +46,51 @@
   font-size: 28px;
   font-weight: bold;
   color: white;
+}
+
+.developer {
+  color: grey;
+  font-size: 12px;
+  margin-top: 200px;
+}
+
+.info {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  font-size: calc(10px + 2vmin);
+  color: #b1040e;
+}
+
+.topic-header {
+  color: black;
+}
+
+.topic-subheader {
+  color: black;
+  text-align: left;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.topic-point {
+  color: black;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 40px;
+}
+
+.info-text {
+  color: black;
+  font-size: 16px;
+  width: 50%;
+  text-align: center;
+  align-self: center;
 }
